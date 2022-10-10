@@ -1,6 +1,7 @@
 <template>
   <div class="about">
     <h1 class="text-5xl">This is an Works page</h1>
+      <a href="/"><p class="m-3">homeに戻る</p></a>
      <section id="works">
       <p id="section__ttl" class="text-center text-3xl font-bold mb-10 p-2">Works</p>
       <div class="sm:flex sm:flex-wrap sm:justify-between gap-3">
@@ -14,3 +15,4 @@
     </section>
   </div>
 </template>
+

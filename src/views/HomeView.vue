@@ -2,6 +2,7 @@
   <div class="home">
     <div class="max-w-screen-md w-full mx-auto">
       <HeaderComp/>
+      <TopBtnComp/>
     </div>
     <main>
       <MainVisualComp/>
@@ -25,6 +26,7 @@ import WorksComp from '@/components/WorksComp.vue'
 import NewsComp from '@/components/NewsComp.vue'
 import ContactComp from '@/components/ContactComp.vue'
 import FooterComp from '@/components/FooterComp.vue'
+import TopBtnComp from '@/components/TopBtnComp.vue'
 
 
 export default {
@@ -37,6 +39,7 @@ export default {
     NewsComp,
     ContactComp,
     FooterComp,
+    TopBtnComp,
   }
 }
 </script>

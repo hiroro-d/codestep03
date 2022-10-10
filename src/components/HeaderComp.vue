@@ -6,10 +6,10 @@
       </a>
     </div>
     <nav class="flex justify-center items-center gap-7 text-sm mb-4 sm:mb-0">
-      <a href="#about" class="hover:opacity-70">About</a>
-      <a href="#works" class="hover:opacity-70">Works</a>
-      <a href="#news" class="hover:opacity-70">News</a>
-      <a href="#contact" class="hover:opacity-70">Contact</a>
+      <a href="#" v-scroll-to="{ element: '#about', duration: 1000 }" class="hover:opacity-70">About</a>
+      <a href="#" v-scroll-to="{ element: '#works', duration: 1000, easing: 'ease-in-out'}" class="hover:opacity-70">Works</a>
+      <a href="#" v-scroll-to="{ element: '#news', duration: 1000, easing: 'ease-in' }" class="hover:opacity-70">News</a>
+      <a href="#" v-scroll-to="{ element: '#contact', duration: 1000, easing: 'ease-out' }" class="hover:opacity-70">Contact</a>
       <a href="https://www.instagram.com/"><img src="@/assets/icon-instagram.png" alt="" class="w-5 h-5 hover:opacity-70"></a>
     </nav>
   </div>
